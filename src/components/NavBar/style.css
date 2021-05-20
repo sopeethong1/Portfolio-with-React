@@ -4,7 +4,11 @@ nav.navbar {
     width: 100%;
     position: fixed;
     z-index: 999;
-    opacity: .5
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
 
@@ -15,11 +19,16 @@ nav.navbar ul {
 }
 
 nav.navbar ul li {
-    margin: 50px;
+    margin: 20px;
     display: inline-block;
 }
 
 nav.navbar ul li a {
     text-decoration: none;
+    color: rgb(0, 2, 129);
 
+}
+nav.navbar a:hover {
+    border-bottom: 5px;
+    color: rgba(68, 88, 119, 1);
 }

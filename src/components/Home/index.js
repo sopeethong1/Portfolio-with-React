@@ -1,7 +1,10 @@
+import React from "react";
+import "./style.css";
+
 const Home = () => {
     return (
-      <div>
-        <h1>HOME</h1>
+      <div className="home">
+        <h1>Welcome to my portfolio</h1>
       </div>
     );
   };
