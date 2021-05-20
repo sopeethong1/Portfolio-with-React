@@ -1,0 +1,25 @@
+nav.navbar {
+    background-color: rgb(179, 170, 164);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: .5
+   
+}
+
+nav.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar ul li {
+    margin: 50px;
+    display: inline-block;
+}
+
+nav.navbar ul li a {
+    text-decoration: none;
+
+}

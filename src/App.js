@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import AboutMe from "./components/AboutMe";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header />
-      <NavTabs />
+      <NavBar />
       <Home />
       <AboutMe />
       <Projects />
