@@ -6,7 +6,7 @@ function Footer () {
       <footer className="pink">
       <div className="container">
         <ul className="list-unstyled list-inline text-center">
-          <li className="list-inline-item">
+          <li className="waves-effect waves-light">
             <a
               className="btn-floating btn-fb mx-1"
               href="https://github.com/sopeethong1"
@@ -14,7 +14,7 @@ function Footer () {
               <i className="fab fa-github"> </i>
             </a>
           </li>
-          <li className="list-inline-item">
+          <li className="waves-effect waves-light">
             <a
               className="btn-floating btn-li mx-1"
               href="https://www.linkedin.com/in/sopee-t-4a942363"
@@ -22,7 +22,7 @@ function Footer () {
               <i className="fab fa-linkedin-in"> </i>
             </a>
           </li>
-          <li className="list-inline-item">
+          <li className="waves-effect waves-light">
             <a
               className="btn-floating btn-fb mx-1"
               href="mailto:tsopee@gmail.com"

@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+// import Image from "./headshot.png"
 
 
 const AboutMe = () => {
@@ -10,9 +11,9 @@ const AboutMe = () => {
           <h2>About Me</h2>
           <img
             style={{ height: "285px" }}
-            src="https://github.com/sopeethong1/Portfolio/blob/f0878f9bae088fb63406f68580335a865dc1816e/Assets/ST.PNG"
+        src={process.env.PUBLIC_URL + '/headshot.png'} alt="logo" />
             class="float-left pr-4 pb-3 img-fluid"
-            alt="SopeeThongImage"
+            alt="SopeeProfileImage"
           />
           <p style={{ fontSize: "15px" }}>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
