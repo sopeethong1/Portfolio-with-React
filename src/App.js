@@ -7,14 +7,14 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
-import Home from "./components/Home";
+import Wrapper from "./components/Wrapper";
+
 
 function App() {
   return (
     <div>
       <Header />
       <NavBar />
-      <Home />
       <AboutMe />
       <Projects />
       <ContactMe />
