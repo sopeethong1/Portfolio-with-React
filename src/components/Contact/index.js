@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-const ContactMe = () => {
+const Contact = () => {
     return (
       <section className="contact">
-        <h1>Contact Me</h1> 
+        <h1>Contact</h1> 
             <a href="tel:+15555555555">(913) 303-1681‬
             </a>
             <a href="mailto:tsopee@gmail.com">tsopee@gmail.com</a>
@@ -14,4 +14,4 @@ const ContactMe = () => {
     );
   };
   
-  export default ContactMe;
+  export default Contact;

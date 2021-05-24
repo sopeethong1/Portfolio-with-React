@@ -1,9 +1,17 @@
-
-
-const AboutMe = () => {
+import React from "react";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+const About = () => {
   return (
-    <div className="aboutme">
-      <h1>About Me</h1>
+    <MDBContainer className="about">
+    <MDBRow>
+      <MDBCol md="12">
+      <img
+            style={{ height: "285px" }}
+            src="https://github.com/sopeethong1/Portfolio-with-React/blob/d27f7d9921763470f2936e01ae76e2c45083f5d1/src/assets/headshot.png"
+            class="float-left pr-4 pb-3 img-fluid"
+            alt="Sopee Headshot"
+          />
+      <h1>About </h1>
       <p>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
         Napoleon Hill. <br></br> I am a committed, service-minded and solution focused
@@ -21,8 +29,10 @@ const AboutMe = () => {
         JSON, Bootstrap, MySQL and MERN stack as foundations for building
         novice projects.
       </p>
-    </div>
+      </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
 };
 
-export default AboutMe;
+export default About;
