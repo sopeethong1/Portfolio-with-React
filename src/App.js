@@ -1,7 +1,6 @@
 import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route } from "react-router-dom";
 import About from "./components/About";
-import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -12,15 +11,18 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
+    <HashRouter basename="/">
     <div>
       <Header />
-      <NavBar />
-      <About />
-      <Projects />
-      <Contact />
-      <Resume />
+      <Wrapper>
+      <Route exact path="/" component={About} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/resume" component={Resume} />
+      </Wrapper>
       <Footer />
     </div>
+    </HashRouter>
   );
 }
 
