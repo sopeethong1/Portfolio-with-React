@@ -19,7 +19,6 @@ function App() {
       <Projects />
       <ContactMe />
       <Resume />
-      <ContactMe />
       <Footer />
     </div>
   );
