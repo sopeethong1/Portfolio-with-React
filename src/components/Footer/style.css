@@ -1,8 +1,9 @@
 .footer pink {
-    min-height: 100px;
+    min-height: 400px;
     background: #E5E5E5;
     position: relative;
     color: pink;
+    line-height: 5.5;
   }
   
   .footer span {
@@ -10,6 +11,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 3px;
+    padding: 10px;
     background: #B8B8B8;
   }

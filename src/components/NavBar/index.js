@@ -15,6 +15,7 @@ function Navbar() {
       dark
       expand="lg"
       style={{ width: "100%" }}
+
     >
       <MDBNavbarBrand>
         <strong className="white-text">Sopee Thong</strong>
@@ -40,8 +41,8 @@ function Navbar() {
         </MDBNavItem>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/contact">
-            <MDBIcon icon="envelope" className="mr-1" />
-            Contact
+            <MDBIcon/>
+         
           </MDBNavLink>
         </MDBNavItem>
       </MDBNavbarNav>
