@@ -1,17 +1,14 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 const About = () => {
   return (
-    <MDBContainer className="about">
-    <MDBRow>
-      <MDBCol md="12">
+   <div>
+      <h1>About</h1>
       <img
             style={{ height: "285px" }}
-            src="https://github.com/sopeethong1/Portfolio-with-React/blob/d27f7d9921763470f2936e01ae76e2c45083f5d1/src/assets/headshot.png"
+            src="https://github.com/sopeethong1/Portfolio-with-React/blob/fca1df34599d9d8766a23ca88c38a601fdc23073/src/assets/headshot.png"
             class="float-left pr-4 pb-3 img-fluid"
-            alt="Sopee Headshot"
+            alt="SopeeHeadshot"
           />
-      <h1>About </h1>
       <p>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
         Napoleon Hill. <br></br> I am a committed, service-minded and solution focused
@@ -29,9 +26,7 @@ const About = () => {
         JSON, Bootstrap, MySQL and MERN stack as foundations for building
         novice projects.
       </p>
-      </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+      </div>
   );
 };
 

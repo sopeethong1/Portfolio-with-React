@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(68, 88, 119, 1);
+    background-color: rgba(238, 238, 247, 1) ;
+    line-height: 1.5;
+  }
