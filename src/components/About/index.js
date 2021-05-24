@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-// import Image from "./headshot.png"
+
 
 
 const AboutMe = () => {
@@ -9,12 +9,10 @@ const AboutMe = () => {
       <MDBRow>
         <MDBCol md="12">
           <h2>About Me</h2>
-          <img
-            style={{ height: "285px" }}
-        src={process.env.PUBLIC_URL + '/headshot.png'} alt="logo" />
-            class="float-left pr-4 pb-3 img-fluid"
-            alt="SopeeProfileImage"
-          />
+          {/* <img
+            style={{ height: "200px" }}
+        src={process.env.PUBLIC_URL + '/headshot.png'} alt="SopeeProfile" /> */}
+   
           <p style={{ fontSize: "15px" }}>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
         Napoleon Hill. <br></br> I am a committed, service-minded and solution focused

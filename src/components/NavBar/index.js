@@ -15,10 +15,13 @@ function Navbar() {
       dark
       expand="lg"
       style={{ width: "100%" }}
-
     >
       <MDBNavbarBrand>
-        <strong className="white-text">Sopee Thong</strong>
+      <img 
+       style={{ width: "50%" }}
+       src={process.env.PUBLIC_URL + '/headshot.png'} alt="SopeeHeadshot" />
+      <br></br>
+        <strong className="white-text" >Sopee Thong</strong>
       </MDBNavbarBrand>
       <MDBNavbarNav right>
         <MDBNavItem>
