@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
+
 const AboutMe = () => {
   return (
     <MDBContainer className="mt-5">
@@ -9,11 +10,11 @@ const AboutMe = () => {
           <h2>About Me</h2>
           <img
             style={{ height: "285px" }}
-            src="https://github.com/sopeethong1/Portfolio-with-React/blob/921d641d1d38a667c94554af10cc7576fc96cded/src/assets/headshot.png"
+            src="https://github.com/sopeethong1/Portfolio/blob/f0878f9bae088fb63406f68580335a865dc1816e/Assets/ST.PNG"
             class="float-left pr-4 pb-3 img-fluid"
             alt="SopeeThongImage"
           />
-          <p style={{ fontSize: "27px" }}>
+          <p style={{ fontSize: "15px" }}>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
         Napoleon Hill. <br></br> I am a committed, service-minded and solution focused
         Full Stack Developer and team player with a broad scope of experience in

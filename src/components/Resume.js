@@ -2,7 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Resume from "../assets/SThong_Resume_2021.pdf";
 
-const AboutMe = () => {
+const Resumepdf = () => {
   return (
     <MDBContainer className="mt-5">
       <MDBRow>
@@ -14,4 +14,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Resumepdf;
