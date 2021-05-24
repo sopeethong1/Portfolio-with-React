@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from "../components/AboutMe";
+import About from "../components/About";
 import Wrapper from "../components/Wrapper";
 
 function About() {

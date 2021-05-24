@@ -1,9 +1,11 @@
 import React from "react";
 import "./style.css";
 
+
 const Header = () => {
   return (
     <header className="navbar">
+
           <ul>
               <li>
                   <a href="/#about">About</a>
