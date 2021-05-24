@@ -2,7 +2,7 @@ import React from "react";
 import Resume from "../components/Resume";
 import Wrapper from "../components/Wrapper";
 
-function Resume() {
+function ResumeInfo() {
   return (
     <Wrapper>
       <Resume />
@@ -10,4 +10,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ResumeInfo;

@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "../components/Contact";
+import ContactMe from "../components/Contact/index";
 import Wrapper from "../components/Wrapper";
 
 function Contact() {

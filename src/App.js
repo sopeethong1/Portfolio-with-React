@@ -1,28 +1,27 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Resume from "./components/Resume";
-import Home from "./components/Home";
-import Wrapper from "./components/Wrapper";
+import NavBar from "./components/NavBar/index";
+import Footer from "./components/Footer/index";
+// import Wrapper from "./components/Wrapper/index";
+// import About from "./pages/about";
+// import Projects from "./pages/projects";
+// import Contact from "./pages/contact";
+// import Resume from "./pages/resume";
 
 
 
 function App() {
   return (
     <HashRouter basename="/">
-    <div>
-    <Header />
-        <Wrapper>
-          <Route exact path="/" component={Home} />
+    <div className="App">
+    <NavBar />
+        {/* <Wrapper>
+          <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
-          </Wrapper>
+          </Wrapper> */}
           <Route exact path="/footer" component={Footer} />
     </div>
   </HashRouter>

@@ -11,7 +11,7 @@ const AboutMe = () => {
             style={{ height: "285px" }}
             src="https://github.com/sopeethong1/Portfolio-with-React/blob/921d641d1d38a667c94554af10cc7576fc96cded/src/assets/headshot.png"
             class="float-left pr-4 pb-3 img-fluid"
-            alt="Sopee Thong"
+            alt="SopeeThongImage"
           />
           <p style={{ fontSize: "27px" }}>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
