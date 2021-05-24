@@ -3,12 +3,7 @@ const About = () => {
   return (
    <div>
       <h1>About</h1>
-      <img
-            style={{ height: "285px" }}
-            src="https://github.com/sopeethong1/Portfolio-with-React/blob/fca1df34599d9d8766a23ca88c38a601fdc23073/src/assets/headshot.png"
-            class="float-left pr-4 pb-3 img-fluid"
-            alt="SopeeHeadshot"
-          />
+     
       <p>
         “Whatever Your Mind Can Conceive and Believe, It Can Achieve.” –
         Napoleon Hill. <br></br> I am a committed, service-minded and solution focused
