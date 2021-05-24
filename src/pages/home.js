@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Home from "../components/Home";
 import Headshot from "../assets/headshot.png";
 
 const Home = () => {

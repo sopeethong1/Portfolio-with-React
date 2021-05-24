@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 const Footer = () => {
     return (
       <footer class="page-footer fixed-bottom font-small special-color-dark pt-4">

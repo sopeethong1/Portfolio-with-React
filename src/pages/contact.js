@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "../components/Contact";
 import Wrapper from "../components/Wrapper";
 
-function ContactMe() {
+function Contact() {
   return (
     <Wrapper>
       <ContactMe />
