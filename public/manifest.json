@@ -12,7 +12,10 @@
       "type": "image/png",
       "sizes": "192x192"
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> 57d605cfc48082020e59ff31c09e420a56fc94d1
     {
       "src": "logo512.png",
       "type": "image/png",
