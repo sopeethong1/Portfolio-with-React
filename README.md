@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ##Gif of Portfolio
-![Alt Text] (https://github.com/sopeethong1/Portfolio-with-React/blob/da14f0e1fdfc72ca3d5d54f82695931e6133e268/src/assets/Untitled_%20May%2024,%202021%2010_52%20PM.gif)
+![Alt Text](https://github.com/sopeethong1/Portfolio-with-React/blob/da14f0e1fdfc72ca3d5d54f82695931e6133e268/src/assets/Untitled_%20May%2024,%202021%2010_52%20PM.gif)
 
 ## Link to Live Site
 [link] https://sopeethong1.github.io/Portfolio-with-React/
